@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="card weather">
+      <h1>Weather dashboard</h1>
+      <form id="weather-form">
+        <label for="city">City</label>
+        <div class="search-row">
+          <input id="city" name="city" placeholder="e.g. Amman" autocomplete="off">
+          <button type="submit">Search</button>
+        </div>
+      </form>
+      <section id="weather-results">
+        <p>Search for a city to see the weather.</p>
+      </section>
+    </main>
+  </body>
+</html>
